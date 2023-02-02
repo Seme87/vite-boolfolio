@@ -1,16 +1,17 @@
 <script>
-import ListProjects from "./ListProjects.vue";
-
 export default {
   name: "AppMain",
-  components: { ListProjects },
 };
 </script>
 
 <template>
   <main>
-    <ListProjects />
+    <router-view></router-view>
   </main>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+  main {
+    padding: 30px 0;
+  }
+</style>

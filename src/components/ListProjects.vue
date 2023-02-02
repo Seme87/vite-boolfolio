@@ -21,7 +21,7 @@ export default {
 
 <template>
   <section>
-    <h2 class="text-center mb-4">Lista dei Progetti</h2>
+    <h1 class="text-center mb-4">Lista  Progetti</h1>
     <div class="container">
       <div class="row">
         <div class="col-md-4 g-2" v-for="project in projects">

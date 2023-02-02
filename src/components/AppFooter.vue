@@ -5,12 +5,15 @@ export default {
 </script>
 
 <template>
-  <footer>Made whith ❤️</footer>
+  <footer>
+    <div class="container">
+      <h3>Made with ❤️</h3>
+    </div>
+  </footer>
 </template>
 
 <style lang="scss" scoped>
 footer {
-  margin-top: 30px;
   height: 100px;
   background-color: antiquewhite;
 }

@@ -22,10 +22,11 @@ export default {
 <template>
   <section>
     <h2 class="text-center mb-4">Lista dei Progetti</h2>
-    <div class="container"></div>
-    <div class="row">
-      <div class="col-md-4 g-2" v-for="project in projects">
-        <CardProject :data="project" />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 g-2" v-for="project in projects">
+          <CardProject :data="project" />
+        </div>
       </div>
     </div>
   </section>

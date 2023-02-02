@@ -14,7 +14,11 @@ export default {
 
 <template>
   <div class="card" style="width: 18rem">
-    <img src="..." class="card-img-top" alt="..." />
+    <img
+      :src="{{ data.cover_Image }}"
+      class="card-img-top"
+      :alt="{{ data.title }}"
+    />
     <div class="card-body">
       <h5 class="card-title">{{ data.title }}</h5>
       <p class="card-text">
